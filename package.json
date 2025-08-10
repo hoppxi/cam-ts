@@ -1,7 +1,7 @@
 {
   "name": "cam-ts",
   "version": "1.0.0",
-  "main": "main.ts",
+  "main": "./src/index.ts",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
