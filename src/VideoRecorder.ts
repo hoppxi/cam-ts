@@ -83,4 +83,10 @@ export class VideoRecorder {
       this.mediaRecorder.resume();
     }
   }
+
+  static stopRecording() {
+    if (this.mediaRecorder) {
+      this.mediaRecorder.stop();
+    }
+  }
 }
